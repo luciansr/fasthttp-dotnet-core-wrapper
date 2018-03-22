@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FastHttpWrapperLib\FastHttpWrapper.csproj" />
+    <ProjectReference Include="..\FastHttpWrapperLib\FastHttpWrapperLib.csproj" />
   </ItemGroup>
 
 </Project>

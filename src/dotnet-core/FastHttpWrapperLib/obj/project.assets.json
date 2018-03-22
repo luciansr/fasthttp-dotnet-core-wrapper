@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Lucian\\Produtos\\fasthttp-dotnet-core-wrapper\\src\\dotnet-core\\FastHttpWrapper\\FastHttpWrapper.csproj",
-      "projectName": "FastHttpWrapper",
-      "projectPath": "E:\\Lucian\\Produtos\\fasthttp-dotnet-core-wrapper\\src\\dotnet-core\\FastHttpWrapper\\FastHttpWrapper.csproj",
+      "projectUniqueName": "E:\\Lucian\\Produtos\\fasthttp-dotnet-core-wrapper\\src\\dotnet-core\\FastHttpWrapperLib\\FastHttpWrapperLib.csproj",
+      "projectName": "FastHttpWrapperLib",
+      "projectPath": "E:\\Lucian\\Produtos\\fasthttp-dotnet-core-wrapper\\src\\dotnet-core\\FastHttpWrapperLib\\FastHttpWrapperLib.csproj",
       "packagesPath": "C:\\Users\\lucian.sturiao\\.nuget\\packages\\",
-      "outputPath": "E:\\Lucian\\Produtos\\fasthttp-dotnet-core-wrapper\\src\\dotnet-core\\FastHttpWrapper\\obj\\",
+      "outputPath": "E:\\Lucian\\Produtos\\fasthttp-dotnet-core-wrapper\\src\\dotnet-core\\FastHttpWrapperLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

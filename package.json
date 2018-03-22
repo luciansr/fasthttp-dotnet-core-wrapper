@@ -6,6 +6,10 @@
   "author": "lucian.rodrigues <lucian.rodrigues@stoneage.com.br>",
   "license": "MIT",
   "scripts":{
-    "run-go" : "go run ./src/golang/fasthttp-post-wrapper.go"
+    "run-go" : "go run ./src/golang/fasthttp-post-wrapper.go",
+    "restore": "go get -u \"github.com/valyala/fasthttp\"",
+    "build": "go build -o ./src/golang/fasthttp.exe ./src/golang/fasthttp-post-wrapper.go",
+    "install": "go get -u \"github.com/valyala/fasthttp\"",
+    "run": ""
   }
 }
