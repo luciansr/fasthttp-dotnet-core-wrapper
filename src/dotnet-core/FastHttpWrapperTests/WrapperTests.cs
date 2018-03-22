@@ -15,7 +15,7 @@ namespace FastHttpWrapperTests
             var fastHttpPath = System.IO.Path.Combine(directory, "fasthttp.exe");
 
             FastHttpWrapper wrapper = new FastHttpWrapper("../../../../../golang/fasthttp.exe");
-            string result = wrapper.DoPost("http://127.0.0.1:5001/api/script/run", "{ \"ScriptName\" : \"TESTE\", \"Token\": \"69558fae-7aa8-4095-801f-0df04b14d3c8\", \"ScriptParameters\" : { \"entrada\": 123 } }");
+            string result = wrapper.DoPost("http://127.0.0.1:5001/api/script/run", "{ 'ScriptName' : 'TESTE', 'Token': '69558fae-7aa8-4095-801f-0df04b14d3c8', 'ScriptParameters' : { 'entrada': 123 } }");
 
 
         }

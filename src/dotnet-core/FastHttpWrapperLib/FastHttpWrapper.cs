@@ -17,7 +17,7 @@ namespace FastHttpWrapperLib
         {
             try
             {
-                _process.StartInfo.Arguments = uri + " " + postBody;
+                _process.StartInfo.Arguments = uri + " \"" + postBody + "\"";
                 _process.Start();
                 // _process.
             }

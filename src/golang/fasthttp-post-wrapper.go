@@ -21,6 +21,7 @@ func doRequest(url string, body string) {
 	bodyBytes := resp.Body()
 	println("Request Response:")
 	println(string(bodyBytes))
+	fmt.Print(string(bodyBytes))
 	// User-Agent: fasthttp
 	// Body: p=q
 }
@@ -28,8 +29,8 @@ func doRequest(url string, body string) {
 func main() {
 	uri := os.Args[1]
 	postBody := os.Args[2]
-	fmt.Println(uri)
-	fmt.Println(postBody)
+	println(uri)
+	println(postBody)
 
 	//go run .\fasthttp-post-wrapper.go 'http://localhost:5001/api/script/run' '{ \"ScriptName\" : \"TESTE\", \"Token\": \"69558fae-7aa8-4095-801f-0df04b14d3c8\", \"ScriptParameters\" : { \"entrada\": 123 } }'
 
