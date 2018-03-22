@@ -1,0 +1,11 @@
+{
+  "name": "fasthttp-dotnet-core-wrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/luciansr/fasthttp-dotnet-core-wrapper.git",
+  "author": "lucian.rodrigues <lucian.rodrigues@stoneage.com.br>",
+  "license": "MIT",
+  "scripts":{
+    "run-go" : "go run ./src/golang/fasthttp-post-wrapper.go"
+  }
+}
